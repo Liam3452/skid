@@ -10,3 +10,6 @@ This script is mainly for windows but you can use on linux to, if any questions 
 Follow my instagram: https://www.instagram.com/_python.exe_/?hl=es
 
 donate to my patreon: https://www.patreon.com/pythondonate
+
+If exe file is not working you might have to remove it from quarantine form the antivirus you are using, if you do not want to use the exe file but want to use the script you need 
+to have python installed.
