@@ -6,3 +6,4 @@ if you have python3 installed you can run the script with out the exe file but i
 
 This script works on windows and linux 
 
+Follow my instagram: https://www.instagram.com/_python.exe_/?hl=es
