@@ -7,7 +7,7 @@ if you have python3 installed you can run the script with out the exe file but i
 
 This script is mainly for windows but you can use on linux to, if any questions ask me on instagram. 
 
-Follow my instagram: https://www.instagram.com/_python.exe_
+Follow my instagram: https://www.instagram.com/_python.exe_/
 
 donate to my patreon: https://www.patreon.com/pythondonate
 
