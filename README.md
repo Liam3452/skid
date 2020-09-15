@@ -4,6 +4,6 @@ Hi this is my very first script that i worked on and i hope you like it this scr
 
 if you have python3 installed you can run the script with out the exe file but if you do not have python3 installed you can use the exe file, the exe file is not a virus, even though windows might read it as a virus it is not there will be a video to prove the fact.
 
-This script works on windows and linux 
+This script is mainly for windows but you can try on linux, if any questions ask me on instagram. 
 
 Follow my instagram: https://www.instagram.com/_python.exe_/?hl=es
