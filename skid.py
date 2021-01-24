@@ -155,22 +155,18 @@ if options == 3 :
 
     browser.get('https://www.instagram.com/')
     text = input("Enter user name: ")
-    while (True):
-        browser.find_element_by_xpath('//*[@id="loginForm"]/div/div[1]/div/label/input').send_keys(text)
-        browser.find_element_by_xpath(
-            '//*[@id="loginForm"]/div/div[2]/div/label/input').click()
-        text = input("Enter user password: ")
-        browser.find_element_by_xpath(
-            '//*[@id="loginForm"]/div/div[2]/div/label').send_keys(text)
-        browser.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]/button')
-        browser.find_element_by_xpath(
-            '//*[@id="loginForm"]/div/div[3]/button').click()
-        text = input("Victim: ")
-        browser.find_element_by_xpath('//*[@id="react-root"]/section/nav/div[2]/div/div/div[2]/div/div').click()
-        browser.find_element_by_xpath('//*[@id="react-root"]/section/nav/div[2]/div/div/div[2]/input').send_keys(text)
-        sleep(4)
-        browser.find_element_by_xpath(
-            '//*[@id="react-root"]/section/nav/div[2]/div/div/div[2]/div[3]/div[2]/div/a[1]').click()
+    
+    browser.find_element_by_xpath('//*[@id="loginForm"]/div/div[1]/div/label/input').send_keys(text)
+    browser.find_element_by_xpath('//*[@id="loginForm"]/div/div[2]/div/label/input').click()
+    text = input("Enter user password: ")
+    browser.find_element_by_xpath('//*[@id="loginForm"]/div/div[2]/div/label').send_keys(text)
+    browser.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]/button')
+    browser.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]/button').click()
+    text = input("Victim: ")
+    browser.find_element_by_xpath('//*[@id="react-root"]/section/nav/div[2]/div/div/div[2]/div/div').click()
+    browser.find_element_by_xpath('//*[@id="react-root"]/section/nav/div[2]/div/div/div[2]/input').send_keys(text)
+    sleep(4)
+    browser.find_element_by_xpath('//*[@id="react-root"]/section/nav/div[2]/div/div/div[2]/div[3]/div[2]/div/a[1]').click()
         while (True):
             print("Choose a post")
             print("you have 10 sec to chose")
@@ -207,187 +203,10 @@ if options == 3 :
                 print("Spamming Now...")
                 print("time started" + str(datetime.now()))
                 print("_" * 50)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
+                browser.find_element_by_xpath('/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
+                browser.find_element_by_xpath('/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
                 sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                print("sleeping for 120 sec")
-                sleep(120)
-
-                print("_" * 50)
-                print("Spamming Now...")
-                print("time started" + str(datetime.now()))
-                print("_" * 50)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                print("sleeping for 200 sec")
-                sleep(200)
-
-                print("_" * 50)
-                print("Spamming Now...")
-                print("time started" + str(datetime.now()))
-                print("_" * 50)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                print("sleeping for 200 sec")
-                sleep(200)
-
-                print("_" * 50)
-                print("Spamming Now...")
-                print("time started" + str(datetime.now()))
-                print("_" * 50)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                print("sleeping for 400 sec")
-                sleep(400)
-
-                print("_" * 50)
-                print("Spamming Now...")
-                print("time started" + str(datetime.now()))
-                print("_" * 50)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                print("sleeping for 400 sec")
-                sleep(400)
-
-                print("_" * 50)
-                print("Spamming Now...")
-                print("time started" + str(datetime.now()))
-                print("_" * 50)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                sleep(3)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
-                browser.find_element_by_xpath(
-                    '/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
-                print("Exiting...")
-                sys.exit()
+                
 
 if options == 4 :
     print('''
