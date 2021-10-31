@@ -23,7 +23,6 @@ print( '''
 ██████╔╝██║░╚██╗██║██████╔╝██╗██║░░░░░░░░██║░░░
 ╚═════╝░╚═╝░░╚═╝╚═╝╚═════╝░╚═╝╚═╝░░░░░░░░╚═╝░░░
 By: Liam Wood
-Follow in instagram: https://www.instagram.com/_python.exe_/?hl=es
 Github: https://github.com/Shutdown-exe/skid/blob/master/README.md
                                              ''')
 print('this is for educational purposes only, i am not responsible for your actions.')
